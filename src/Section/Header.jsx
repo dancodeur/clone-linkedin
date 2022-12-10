@@ -7,6 +7,7 @@ export default function Header(){
 
         <div className="bg-[#ffffff] px-[14rem]  border-b-2  sticky top-0">
              <div className="grid grid-cols-6 p-2">
+                 {/** Linkedin Picture and Search Bar*/}
                 <div className="col-span-2  flex items-center ">
 
                      <div>
@@ -27,7 +28,7 @@ export default function Header(){
                      </div>
 
                 </div>
-
+                 {/** Section Navbar's Links*/}
                 <div className="col-span-3 flex justify-end space-x-6 mr-3">
                    
                       <NavLink to="/" className=" group relative">
@@ -102,7 +103,7 @@ export default function Header(){
                 
                      
                 </div>
-
+                 {/** Another Navbar's Links Section*/}
                 <div className=" border-l-2 border-slate-200 col-span-1 flex justify-end px-2 space-x-6 ">
                 
                    <div className="flex relative group">

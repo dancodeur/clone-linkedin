@@ -17,7 +17,6 @@ function App() {
                    <Route path="/Me" element={<Me/>} />
                    <Route path="/MyNetwork" element={<MyNetwork/>} />
                    
-
                </Routes>
          </div>
     </div>
